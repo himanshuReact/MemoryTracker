@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.boxesContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.boxesRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.emptyBox {
+  width: 40px;
+  height: 40px;
+  border: 1px solid transparent;
+  margin: 5px;
+}
